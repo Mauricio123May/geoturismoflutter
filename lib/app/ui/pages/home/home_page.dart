@@ -28,6 +28,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(),
       body: GoogleMap(
         initialCameraPosition: _initialCameraPosition,
+        mapType: MapType.terrain,
         ),
     );
     
